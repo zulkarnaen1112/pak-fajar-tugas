@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Menggunakan font yang lebih modern */
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('palm-trees-8000x4500-18170.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8); /* Warna putih dengan transparansi 80% */
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Menambah bayangan untuk efek 3D */
+    width: 350px;
+    transition: transform 0.3s ease-in-out; /* Efek transisi pada hover */
+}
+
+.login-container:hover {
+    transform: scale(1.05); /* Efek membesar saat hover */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #4CAF50; /* Mengubah warna border saat input aktif */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}

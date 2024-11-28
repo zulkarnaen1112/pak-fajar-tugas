@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>biodata</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap anda..." />
+        </p>
+        <p>
+            <label>Umur:</label>
+            <input type="text" name="umur" placeholder="umur anda..." />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Tempat lahir:</label>
+            <input type="text" name="Tempat lahir" placeholder="Tempat lahir..." />
+        </p>
+        <p>
+            <label>tanggal lahir:</label>
+            <input type="date" name="Tanggal lahir" placeholder="Tanggal lahir..." />
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <input type="text" name="Alamat" placeholder="Alamat..." />
+        </p>
+        <p>
+            <label>Kota:</label>
+            <select name="kota">
+                <option value="jakarta">jakarta</option>
+                <option value="makassar">makassar</option>
+                <option value="bandung">bandung</option>
+                <option value="yogyakarta">yogyakarta</option>
+                <option value="Jayapura">Jayapura</option>
+                <option value="denpasar">denpasar</option>
+                <option value="Gorontalo">Gorontalo</option>
+                <option value="mataram">mataram</option>
+                <option value="palembang">palembang</option>
+                <option value="Kupang">Kupang</option>
+            </select>
+        </p>
+        <p>
+            <label>provinsi:</label>
+            <select name="provinsi">
+                <option value="DKI Jakarta">jakarta</option>
+                <option value="sulawesi selatan">sulawesi selatan</option>
+                <option value="jawa barat">jawa barat</option>
+                <option value="DI yogyakarta">DI yogyakarta</option>
+                <option value="Papua">Papua</option>
+                <option value="bali">bali</option>
+                <option value="Gorontalo">Gorontalo</option>
+                <option value="Nusa Tenggara Barat ">Nusa Tenggara Barat </option>
+                <option value="sumatra selatan">sumatra selatan</option>
+                <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
